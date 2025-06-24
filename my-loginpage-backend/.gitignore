@@ -1,0 +1,7 @@
+# Ignore env secrets
+.env
+*.json
+
+# Node.js
+node_modules
+
