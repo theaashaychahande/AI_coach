@@ -21,6 +21,7 @@ def detect_emotion():
             print("Error detecting emotion:", e)
             emotion = "Unknown"
 
+       
         cv2.imshow('Sentiment-Aware AI Coach', frame)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
